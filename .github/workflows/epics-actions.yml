@@ -4,6 +4,7 @@ on:
     types: [opened, closed, reopened]
 permissions:
   issues: write
+  pull-requests: write
 jobs:
   epics:
     runs-on: ubuntu-latest
